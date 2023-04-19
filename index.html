@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Car<span>Rental</span></h2>
+        <svg class="menu" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/>
+        </svg>
+        <nav class="navbar">
+            
+            <svg class="close" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.5 0.25C13.2861 0.25 10.1443 1.20305 7.47199 2.98862C4.79969 4.77419 2.71689 7.31209 1.48697 10.2814C0.257041 13.2507 -0.0647633 16.518 0.562247 19.6702C1.18926 22.8224 2.73692 25.7179 5.00952 27.9905C7.28213 30.2631 10.1776 31.8108 13.3298 32.4378C16.482 33.0648 19.7493 32.743 22.7186 31.513C25.6879 30.2831 28.2258 28.2003 30.0114 25.528C31.797 22.8557 32.75 19.7139 32.75 16.5C32.75 14.366 32.3297 12.2529 31.5131 10.2814C30.6964 8.30985 29.4994 6.51847 27.9905 5.00952C26.4815 3.50056 24.6902 2.3036 22.7186 1.48696C20.7471 0.670319 18.634 0.25 16.5 0.25ZM20.9038 18.5963C21.0561 18.7473 21.177 18.927 21.2595 19.1251C21.342 19.3231 21.3844 19.5355 21.3844 19.75C21.3844 19.9645 21.342 20.1769 21.2595 20.3749C21.177 20.573 21.0561 20.7527 20.9038 20.9038C20.7527 21.0561 20.573 21.177 20.3749 21.2594C20.1769 21.3419 19.9645 21.3844 19.75 21.3844C19.5355 21.3844 19.3231 21.3419 19.1251 21.2594C18.927 21.177 18.7473 21.0561 18.5963 20.9038L16.5 18.7913L14.4038 20.9038C14.2527 21.0561 14.073 21.177 13.8749 21.2594C13.6769 21.3419 13.4645 21.3844 13.25 21.3844C13.0355 21.3844 12.8231 21.3419 12.6251 21.2594C12.427 21.177 12.2473 21.0561 12.0963 20.9038C11.9439 20.7527 11.8231 20.573 11.7406 20.3749C11.6581 20.1769 11.6156 19.9645 11.6156 19.75C11.6156 19.5355 11.6581 19.3231 11.7406 19.1251C11.8231 18.927 11.9439 18.7473 12.0963 18.5963L14.2088 16.5L12.0963 14.4038C11.7903 14.0978 11.6184 13.6827 11.6184 13.25C11.6184 12.8173 11.7903 12.4022 12.0963 12.0963C12.4023 11.7903 12.8173 11.6184 13.25 11.6184C13.6827 11.6184 14.0978 11.7903 14.4038 12.0963L16.5 14.2088L18.5963 12.0963C18.9023 11.7903 19.3173 11.6184 19.75 11.6184C20.1827 11.6184 20.5978 11.7903 20.9038 12.0963C21.2098 12.4022 21.3817 12.8173 21.3817 13.25C21.3817 13.6827 21.2098 14.0978 20.9038 14.4038L18.7913 16.5L20.9038 18.5963Z" fill="black"/>
+            </svg>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#table">Vehicle Models</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="login-register">
+            <a href="#">Sign In</a>
+            <button id="btn">Register</button>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="big-img"></div>
+        <section class="intro">   
+                <p class="desc">Plan your trip now</p>
+                <h1>Save <span>big</span> with our car rental</h1>
+                <p class="desc2">Rent the car of your dreams. Unbeatable prices. unlimited miles. flexible pick-up options and much more.</p>
+                <div class="btns">    
+                    <button class="one">Book Ride</button>
+                    <button class="two">Learn More ></button>
+                </div>
+        </section>
+    </div>
+
+    <p class="desc3" id="book">Book a car</p>
+    
+    <div class="pick-car">
+       
+        <div class="border">
+            <p class="text"><ion-icon name="car" class="icon"></ion-icon> Select a car type <span>*</span></p>
+            <select name="Car" class="inputs">
+                <option value="">Select your car type</option>
+                <option value="">BMW X1</option>
+                <option value="">BMW 320I</option>
+                <option value="">MERCEDES-BENZ A 35 AMG</option>
+                <option value="">MERCEDES-BENZ GLA 200</option>
+                <option value="">HONDA CIVIC</option>
+                <option value="">HONDA ACCORD</option>
+            </select>
+
+            <p class="text"><ion-icon name="location" class="icon"></ion-icon> Pick up <span>*</span></p>
+            <select name="Car" class="inputs">
+                <option value="">Set pick up location</option>
+                <option value="">New York</option>
+                <option value="">Los Angeles</option>
+                <option value="">Seattle</option>
+            </select>
+        </div>
+
+        <div class="border">
+            <p class="text"><ion-icon name="calendar" class="icon"></ion-icon> Pick up <span>*</span></p>
+            <input type="date" class="inputs">
+
+            <p class="text"><ion-icon name="location" class="icon"></ion-icon> Drop-of <span>*</span></p>
+            <select name="Car" class="inputs">
+                <option value="">Set drop off location</option>
+                <option value="">New York</option>
+                <option value="">Los Angeles</option>
+                <option value="">Seattle</option>
+            </select>
+        </div>
+        
+        <div class="border">
+            <p class="text"><ion-icon name="calendar" class="icon"></ion-icon> Drop-of <span>*</span></p>
+            <input type="date" class="inputs"><br>
+
+            <button class="search">Search</button>
+        </div>
+        
+    </div>
+    
+    <div class="sugestions-intro">    
+        <p class="desc3">Plan your trip now</p>
+        <h1>Quick & easy car rental</h1>
+    </div>
+
+    <div class="sugestions">
+
+        <div class="grid-sugestions">
+            <ion-icon name="car-sport-outline" class="icons2"></ion-icon>
+            <p class="desc3">Select Car</p>
+            <p class="desc2">We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</p>
+        </div>
+
+        <div class="grid-sugestions">
+            <ion-icon name="person-outline" class="icons2"></ion-icon>
+            <p class="desc3">Contact Operator</p>
+            <p class="desc2">Our konowledgeable and friendly operators are aways ready to help with any questions or concerns</p>
+        </div>
+
+        <div class="grid-sugestions">
+            <ion-icon name="arrow-forward-outline" class="icons2"></ion-icon>
+            <p class="desc3">Let's Drive</p>
+            <p class="desc2">Wheather you're hitting the open road, we've got you covered with our wide range of cars</p>
+        </div>
+    </div>
+
+    <div class="sugestions-intro">    
+        <p class="desc3">Vehicle Models</p>
+        <h1>Our rental fleet</h1>
+        <p class="desc2">Choose from a variety of our amazing vehicles to rent for your next adventure or business trip</p>
+    </div>
+
+    <div class="models">
+        <section class="list">
+            <li><button id="btn1">BMW X1</button></li>
+            <li><button id="btn2">BMW 320I</button></li>
+            <li><button id="btn3">MERCEDES-BENZ A 35 AMG</button></li>
+            <li><button id="btn4">MERCEDES-BENZ GLA 200</button></li>
+            <li><button id="btn5">HONDA CIVIC</button></li>
+            <li><button id="btn6">HONDA ACCORD</button></li>  
+        </section>
+
+        <div class="car-div"><img src="x1.png"  id="img" class="car-img"></div>
+
+        <div class="table-div">
+            <table class="table" id="table">
+                <tr>
+                    <th colspan="2" id="price">$35 / rent per day</th>
+                </tr>
+                <tr>
+                    <td>Model</td>
+                    <td id="model">X1</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td id="mark">BMW</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td id="year">2021</td>
+                </tr>
+                <tr>
+                    <td>Doors</td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                    <td>AC</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Transmission</td>
+                    <td id="transmission">Automatic</td>
+                </tr>
+                <tr>
+                    <td>Fuel</td>
+                    <td id="fuel">Diesel</td>
+                </tr>
+            </table>
+
+            <button>Reserve now</button>
+
+        </div>
+    </div>
+
+    <div class="strip">
+        <h1>Save big with our cheap car rental!</h1>
+        <p>Top Airports. Local Suppliers. <span>24/7</span> Support.</p>
+    </div>
+
+    <div class="choose-us">
+        <img src="3cars (2).png">
+        <div class="choose-flex">
+            <section class="center">
+                <p class="desc3">Why Choose Us</p>
+                <h1>Best valued deals you will ever find</h1>
+                <p class="desc2">Discover the best deals you'll ever find with our unbeatable offers. We're dedicated to providing you with the best value for your money, so you can enjoy top-quality services and products without breaking the bank. Our deals are designed to give you the ultimate renting experience, so don't miss out on your chance to save big.</p>
+                <button class="one">Find Detais ></button>
+            </section>
+            <section>
+                <li class="list-us">
+                    <ion-icon name="earth-outline"></ion-icon>
+                    <div>
+                        <h3>Cross Country Drive</h3>
+                        <p class="desc2">Take your driving experience to the next level with our top-notch vehicles for your cross-country adventures.</p>
+                    </div>
+                </li>
+                <li class="list-us">
+                    <ion-icon name="cash-outline"></ion-icon>
+                    <div>
+                        <h3>All Inclusive Pricing</h3>
+                        <p class="desc2">Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.</p>
+                    </div>
+                </li>
+                <li class="list-us">
+                    <ion-icon name="eye-off-outline"></ion-icon>
+                    <div>
+                        <h3>No Hidden Charges</h3>
+                        <p class="desc2">Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
+                    </div>
+                </li>
+            </section>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="test-intro">    
+            <p class="desc3">Reviewed by People</p>
+            <h1>Client's Testimonials</h1>
+            <p class="desc2">Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
+        </div>
+        
+        <div class="margin">
+            <section class="person">
+                <p class="personal-test">"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable."</p>
+                <div class="img-name">
+                    <img src="manoel.jpeg" alt="">
+                    <p><span>Manoel Gomes</span><br> New York</p>  
+                    <ion-icon name="ribbon-outline"  class='icons3'></ion-icon>
+                </div>   
+            </section>
+            <section class="person" id="nando">
+                <p class="personal-test">"The car was in great condition and made our trip even better. Highly recommend for this car rental website!" </p>
+                <div class="img-name">
+                        <img src="nando-moura.jpg" alt="">
+                        <p><span>Nando Moura</span> <br> Seattle</p>
+                        <ion-icon name="ribbon-outline" class='icons3'></ion-icon>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="faq">
+        <div class="faq-intro">
+            <p class="desc3">FAQ</p>
+            <h1>Frequently Asked Questions</h1>
+            <p class="desc2">Frequently Asked Questions About the Car Rental Booking Process on Our Website: Answers to Common Concerns and Inquiries.</p>
+        </div>
+    
+        
+        <div class="faq-quests">
+            <div>
+                <button id="btnfaq1">1. What is special about comparing rental car deals?</button>
+                <p class="hide" id="hide1">Comparing rental car deals is important as it helps find the best deal that fits your budget and requirements, ensuring you get the most value for your money. By comparing various options, you can find deals that offer lower prices, additional services, or better car models. You can find car rental deals by researching online and comparing prices from different rental companies.</p>
+            </div>
+            <div>
+                <button id="btnfaq2">2. How do I find the car rental deals?</button>
+                <p class="hide" id="hide2">You can find car rental deals by researching online and comparing prices from different rental companies. Websites such as Expedia, Kayak, and Travelocity allow you to compare prices and view available rental options. It is also recommended to sign up for email newsletters and follow rental car companies on social media to be informed of any special deals or promotions.</p>
+            </div>
+            <div>
+                <button id="btnfaq3">3. How do I find such low rental car prices?</button>
+                <p class="hide" id="hide3">Book in advance: Booking your rental car ahead of time can often result in lower prices. Compare prices from multiple companies: Use websites like Kayak, Expedia, or Travelocity to compare prices from multiple rental car companies. Look for discount codes and coupons: Search for discount codes and coupons that you can use to lower the rental price. Renting from an off-airport location can sometimes result in lower prices.</p>
+            </div>
+        </div>
+
+        <div class="final-section">
+            <div>
+                <p><b>CAR</b> Rental</p>
+                <p class="desc2">We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
+                <li><a href="#">tel: (123) -456-789</a></li>
+                <li><a href="#">email: carrental@gmail.com</a></li>
+            </div>
+            <div>
+                <p><b>COMPANY</b></p>
+                <li><a href="#">New York</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">How we work</a></li>
+            </div>
+
+            <div>
+                <p><b>WORKING HOURS</b></p>
+                <p>Mon - Fri: 9:00AM - 9:00PM</p>
+                <p>Sat: 9:00AM - 19:00PM</p>
+                <p>Sun: Closed</p>
+            </div>
+
+        </div>
+    
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
